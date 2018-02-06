@@ -11,3 +11,11 @@ ro.qualcomm.bluetooth.pbap=true
 
 # Radio
 ro.radio.noril=yes
+
+# Hardware Info
+ro.device.chipset=Qualcomm MSM8976 Snapdragon 652
+ro.device.cpu=Quad-core 1.4 GHz Cortex-A53 & Quad-core 1.8 GHz Cortex-A72
+ro.device.gpu=Adreno 510
+ro.device.rear_cam=8 MP
+ro.device.front_cam=2 MP
+ro.device.screen_res=1536 x 2048
