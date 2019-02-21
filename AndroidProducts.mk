@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts28vewifi.mk
+    $(LOCAL_DIR)/aicp_gts28vewifi.mk

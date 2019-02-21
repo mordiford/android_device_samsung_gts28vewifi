@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit from gts28vewifi device
 $(call inherit-product, device/samsung/gts28vewifi/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts28vewifi
-PRODUCT_NAME := lineage_gts28vewifi
+PRODUCT_NAME := aicp_gts28vewifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T713
 PRODUCT_MANUFACTURER := samsung
